@@ -33,7 +33,6 @@ O Alura Space é um projeto desenvolvido durante os cursos de Django: Django: te
 
    ```shell
    pip install -r requirements.txt
-   Configure as variáveis de ambiente no arquivo .env com as suas credenciais do Amazon S3.
 
 5. Execute as migrações do banco de dados:
 
@@ -41,7 +40,19 @@ O Alura Space é um projeto desenvolvido durante os cursos de Django: Django: te
    python manage.py makemigrations
    python manage.py migrate
 
-6. Inicie o servidor local:
+8. Configure suas próprias chaves do django e do Amazon S3:
+
+   Crie um arquivo .env na base do projeto e complete com as informações:
+   ```shell
+   SECRET_KEY = 'suasecretkey'
+
+   AWS_ACCESS_KEY_ID = 'suaawskey'
+
+   AWS_SECRET_ACCESS_KEY = 'suaawssecretkey'
+
+   AWS_STORAGE_BUCKET_NAME = 'nomedoseubucket'
+
+7. Inicie o servidor local:
 
    ```shell
    python manage.py runserver
@@ -57,5 +68,3 @@ O Alura Space é um projeto desenvolvido durante os cursos de Django: Django: te
 6. Edição de imagens
 7. Exclusão de imagens
 
-
-## Lembre-se de substituir os dados do repositório e as informações do autor pelos seus próprios dados no README.
