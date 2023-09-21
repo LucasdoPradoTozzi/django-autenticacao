@@ -19,39 +19,40 @@ O Alura Space é um projeto desenvolvido durante os cursos de Django: Django: te
    git clone git@github.com:LucasdoPradoTozzi/django-autenticacao.git
 Acesse a pasta do projeto:
 
-shell
-Copy code
-cd Django-autenticacao.git
+   ```shell
+   Copy code
+   cd Django-autenticacao.git
 Crie e ative um ambiente virtual:
+
 
 No Linux:
 
-shell
+```shell
 Copy code
 python -m venv venv
 source venv/bin/activate
 No Windows:
 
-shell
+```shell
 Copy code
 python -m venv venv
 venv\Scripts\activate
 Instale as dependências do projeto:
 
-shell
+```shell
 Copy code
 pip install -r requirements.txt
 Configure as variáveis de ambiente no arquivo .env com as suas credenciais do Amazon S3.
 
 Execute as migrações do banco de dados:
 
-shell
+```shell
 Copy code
 python manage.py makemigrations
 python manage.py migrate
 Inicie o servidor local:
 
-shell
+```shell
 Copy code
 python manage.py runserver
 Acesse o projeto no navegador: http://localhost:8000
