@@ -47,12 +47,15 @@ O Alura Space é um projeto desenvolvido durante os cursos de Django: Django: te
    python manage.py runserver
    Acesse o projeto no navegador: http://localhost:8000
 
-Funcionalidades
-Upload de imagens
-Visualização de imagens
-Edição de imagens
-Exclusão de imagens
-bash
-Copy code
+## Funcionalidades:
 
-Lembre-se de substituir os dados do repositório e as informações do autor pelos seus próprios dados no README.
+1. Criação de Usuário
+2. Login
+3. Logout
+4. Upload de imagens
+5. Visualização de imagens
+6. Edição de imagens
+7. Exclusão de imagens
+
+
+## Lembre-se de substituir os dados do repositório e as informações do autor pelos seus próprios dados no README.
