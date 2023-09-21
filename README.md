@@ -42,7 +42,7 @@ O Alura Space é um projeto desenvolvido durante os cursos de Django: Django: te
 
 8. Configure suas próprias chaves do django e do Amazon S3:
 
-   Crie um arquivo .env na base do projeto e complete com as informações:
+   Crie um arquivo .env na base do projeto e complete com as suas próprias informações:
    ```shell
    SECRET_KEY = 'suasecretkey'
 
@@ -56,7 +56,9 @@ O Alura Space é um projeto desenvolvido durante os cursos de Django: Django: te
 
    ```shell
    python manage.py runserver
-   Acesse o projeto no navegador: http://localhost:8000
+
+8. Acesse o projeto no navegador:
+   http://localhost:8000
 
 ## Funcionalidades:
 
